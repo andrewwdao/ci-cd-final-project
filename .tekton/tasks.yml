@@ -39,6 +39,7 @@ kind: Task
 metadata:
   name: nose
 spec:
+  description: This task will run all unit test and make sure they pass.
   workspaces:
     - name: source
   params:
